@@ -1,0 +1,8 @@
+# Structure from Motion (SfM) 三维重建实验项目 依赖
+# Python 3.12+
+# 安装：pip install -r requirements.txt
+
+opencv-python>=4.10
+pycolmap>=4.0
+colmap-rerun>=1.0
+numpy>=2.0

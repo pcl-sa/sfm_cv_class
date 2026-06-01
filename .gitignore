@@ -1,0 +1,23 @@
+# SfM generated outputs (images_{dataset}_{w}_{h}/ + outputs_{dataset}_{w}_{h}/)
+images_*_[0-9]*_[0-9]*/
+outputs_*_[0-9]*_[0-9]*/
+
+# Old-style output dirs (before DATASET naming convention)
+images_resized/
+outputs*/
+images*/
+image*/
+south*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# Environment
+.env
+
+# IDE
+.vscode/*
+!.vscode/settings.json
